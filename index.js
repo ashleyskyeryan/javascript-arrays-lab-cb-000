@@ -1,10 +1,10 @@
 
 kittens = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKitten() {
-  kittens.push("Ralph")
+function destructivelyAppendKitten(name) {
+  kittens.push(name)
 }
 
-function destructivelyAppendKitten() {
-  kittens.unshift("Bob")
+function destructivelyAppendKitten(name) {
+  kittens.unshift(name)
 }
